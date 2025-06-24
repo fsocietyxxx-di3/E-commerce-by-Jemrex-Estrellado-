@@ -13,7 +13,7 @@ An end-to-end **E-commerce Website** built using PHP and MySQL, designed to simu
 - Admin dashboard for product and order management
 - Product category filtering
 - Checkout and order processing
-- Responsive design (basic mobile support)
+- Responsive design (under development)
 
 ---
 
@@ -62,7 +62,7 @@ Open **XAMPP Control Panel** and start both **Apache** and **MySQL**.
 
 ### 2. Connect Database in Code
 
-Make sure the database credentials in the PHP files match your local setup. Found in "config.php" file:
+Make sure the database credentials in the PHP files match your local setup. Found in `config.php` file:
 
 ```php
 $host = "localhost";
