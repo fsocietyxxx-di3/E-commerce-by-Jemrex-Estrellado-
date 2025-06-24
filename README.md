@@ -86,10 +86,10 @@ $conn = mysqli_connect($host, $user, $pass, $db);
 E-commerce-by-Jemrex-Estrellado-/
 │
 ├── admin/              # Admin panel for managing products/orders
-├── assets/             # CSS, JS, and images
-├── includes/           # Header, footer, and reusable components
-├── pages/              # Main site pages like home, products, etc.
-├── sql/                # Database import file (if available)
+├── images/             # For images
+├── js/                 #For JavaScript 
+├── css/                #For Css
+├── database/                # Database import file (if available)
 ├── index.php           # Landing page
 └── config.php          # Database connection settings
 ```
