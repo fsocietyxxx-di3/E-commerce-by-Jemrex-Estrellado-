@@ -92,23 +92,9 @@ E-commerce-by-Jemrex-Estrellado-/
 
 ---
 
-## 📸 Screenshots / Demo
-
-> ⚠️ *Screenshots and live demo not available yet.*
-
-You can contribute by adding screenshots or hosting a demo version online!
-
----
-
 ## 👨‍💻 Credits
 
 Developed by **Jemrex Estrellado**  
 GitHub: [leonBADassx](https://github.com/leonBADassx)
-
----
-
-## 📄 License
-
-> This project is currently not licensed. You can add a license section here later.
 
 ---
