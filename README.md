@@ -57,7 +57,7 @@ Open **XAMPP Control Panel** and start both **Apache** and **MySQL**.
 
 1. Open your browser and go to: `http://localhost/phpmyadmin`
 2. Click **Import**
-3. Upload the `.sql` file located in the project folder (commonly named like `ecommerce.sql`)
+3. Upload the `.sql` file located in the project folder (/database/somstore.sql)
 4. Click **Go** to import the database
 
 ### 2. Connect Database in Code
@@ -73,6 +73,10 @@ $conn = mysqli_connect($host, $user, $pass, $db);
 ```
 
 > 🔒 **Note:** No password is required for `root` by default on XAMPP.
+
+### 3. For the Admin Page
+
+1. Open your browser and go to: `http://localhost/Admin/index.php`
 
 ---
 
