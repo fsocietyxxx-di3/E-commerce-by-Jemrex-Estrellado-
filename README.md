@@ -62,7 +62,7 @@ Open **XAMPP Control Panel** and start both **Apache** and **MySQL**.
 
 ### 2. Connect Database in Code
 
-Make sure the database credentials in the PHP files match your local setup. Usually found in a config or connection file like:
+Make sure the database credentials in the PHP files match your local setup. Found in "config.php" file:
 
 ```php
 $host = "localhost";
