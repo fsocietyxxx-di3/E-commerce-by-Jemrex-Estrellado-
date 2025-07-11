@@ -1,9 +1,24 @@
 {
-  "name": "PHP + MySQL",
+  "name": "PHP + MySQL + phpMyAdmin",
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "features": {
+    "ghcr.io/devcontainers/features/mysql:1": {
+      "version": "8.0",
+      "mysqlUser": "dev",
+      "mysqlPassword": "password",
+      "mysqlDatabase": "mydb"
+    }
+  },
   "forwardPorts": [8000, 8080, 3306],
-  "postCreateCommand": "sudo service mysql start",
-  "remoteUser": "vscode"
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "xdebug.php-debug"
+      ]
+    }
+  }
 }
